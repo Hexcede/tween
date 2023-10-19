@@ -1,0 +1,12 @@
+{
+	"name": "tween",
+	"tree": {
+		"$className": "Folder",
+		"Packages": {
+			"$path": "Packages/",
+			"Tween": {
+				"$path": "src/"
+			}
+		}
+	}
+}
