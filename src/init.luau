@@ -4,6 +4,8 @@ local TweenService = game:GetService("TweenService")
 local Promise = require(script.Parent.Promise)
 local Trove = require(script.Parent.Trove)
 
+local TweenGroup = require(script.TweenGroup)
+
 local Tween = {}
 Tween.__index = Tween
 
@@ -17,6 +19,10 @@ function Tween.new(instance: Instance, tweenInfo: TweenInfo, properties: {[strin
 	self._trove = trove
 
 	return self
+end
+
+function Tween.all(tweens: {any})
+	return TweenGroup.from(tweens)
 end
 
 function Tween:Play()
