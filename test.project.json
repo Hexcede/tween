@@ -1,0 +1,25 @@
+{
+	"name": "tween-tests",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"DevPackages": {
+				"$path": "DevPackages/"
+			},
+			"Packages": {
+				"$path": "Packages/",
+				"Tween": {
+					"$path": "src/"
+				}
+			}
+		},
+		"TestService": {
+			"$properties": {
+				"ExecuteWithStudioRun": true
+			},
+			"Test": {
+				"$path": "test/"
+			}
+		}
+	}
+}

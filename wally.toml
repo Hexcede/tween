@@ -7,3 +7,6 @@ realm = "shared"
 [dependencies]
 Promise = "evaera/promise@4.0.0"
 Trove = "sleitnick/trove@1.0.1"
+
+[dev-dependencies]
+TestEZ = "roblox/testez@0.4.1"
