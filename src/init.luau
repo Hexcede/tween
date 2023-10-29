@@ -44,6 +44,8 @@ function Tween:Play()
 		end)
 
 		self._promise = promise
+	else
+		self._tween:Play()
 	end
 	return promise
 end
